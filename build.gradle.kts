@@ -19,7 +19,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("io.quarkus:quarkus-arc")
     implementation("io.quarkus:quarkus-picocli") // https://quarkus.io/guides/picocli#native-mode-support
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.14.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.14.1")
     testImplementation("io.quarkus:quarkus-junit5")
 }
 
